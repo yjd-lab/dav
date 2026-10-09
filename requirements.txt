@@ -1,0 +1,13 @@
+# Core analytics and model dependencies
+# Versions remain unpinned until the team verifies a shared Python environment.
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+joblib
+
+# Tests and notebook demonstration
+pytest
+jupyterlab
+ipykernel

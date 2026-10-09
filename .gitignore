@@ -1,0 +1,40 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Generated artifacts; preserve directory placeholders
+/models/*
+!/models/.gitkeep
+/outputs/figures/*
+!/outputs/figures/.gitkeep
+/outputs/tables/*
+!/outputs/tables/.gitkeep
+/outputs/reports/*
+!/outputs/reports/.gitkeep
+
+# Temporary and operating-system files
+*.log
+*.tmp
+*.bak
+~$*
+.DS_Store
+Thumbs.db
